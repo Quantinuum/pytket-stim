@@ -13,8 +13,8 @@
 # limitations under the License.
 
 import pytest
-
 from pytket.circuit import Bit, Circuit, OpType, Qubit
+
 from pytket.extensions.stim import StimBackend
 
 

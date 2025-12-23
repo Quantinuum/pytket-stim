@@ -1,4 +1,4 @@
-# pytket-TODOEXTNAME
+# pytket-stim
 
 [![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://tketusers.slack.com/join/shared_invite/zt-18qmsamj9-UqQFVdkRzxnXCcKtcarLRA#)
 [![Stack Exchange](https://img.shields.io/badge/StackExchange-%23ffffff.svg?style=for-the-badge&logo=StackExchange)](https://quantumcomputing.stackexchange.com/tags/pytket)
@@ -6,20 +6,22 @@
 [Pytket](https://tket.quantinuum.com/api-docs/index.html) is a python module for interfacing
 with tket, a quantum computing toolkit and optimising compiler developed by Quantinuum.
 
-`pytket-TODOEXTNAME` is an extension to `pytket` that allows `pytket` circuits to be
-executed on .
+[Stim](https://github.com/quantumlib/Stim) is a fast Clifford circuit simulator.
+
+`pytket-stim` is an extension to `pytket` that allows `pytket` circuits to be
+simulated using Stim.
 
 Some useful links:
 
-- [API Documentation](https://tket.quantinuum.com/extensions/pytket-TODOEXTNAME/)
+- [API Documentation](https://tket.quantinuum.com/extensions/pytket-stim/)
 
 ## Getting started
 
-`pytket-TODOEXTNAME` is compatible with Python versions 3.10 to 3.13 on Linux, MacOS
+`pytket-stim` is compatible with Python versions 3.10 to 3.13 on Linux, MacOS
 and Windows. To install, run:
 
 ```shell
-pip install pytket-TODOEXTNAME
+pip install pytket-stim
 ```
 
 This will install `pytket` if it isn't already installed, and add new classes
@@ -28,7 +30,7 @@ and methods into the `pytket.extensions` namespace.
 ## Bugs, support and feature requests
 
 Please file bugs and feature requests on the Github
-[issue tracker](https://github.com/Quantinuum/pytket-TODOEXTNAME/issues).
+[issue tracker](https://github.com/Quantinuum/pytket-stim/issues).
 
 ## Development
 

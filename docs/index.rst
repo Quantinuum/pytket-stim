@@ -11,7 +11,7 @@ to be simulated using ``stim``.
 Windows. To install, run:
 
 ::
-   
+
    pip install pytket-stim
 
 .. toctree::

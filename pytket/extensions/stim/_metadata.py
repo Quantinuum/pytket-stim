@@ -1,0 +1,2 @@
+__extension_version__ = "0.25.0rc0"
+__extension_name__ = "pytket-stim"

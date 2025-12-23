@@ -17,6 +17,8 @@ from typing import cast
 from uuid import uuid4
 
 import numpy as np
+
+import stim  # type: ignore
 from pytket.backends import (
     Backend,
     CircuitNotRunError,
@@ -46,8 +48,6 @@ from pytket.predicates import (
 from pytket.unit_id import Qubit
 from pytket.utils.outcomearray import OutcomeArray
 from pytket.utils.results import KwargTypes
-
-import stim  # type: ignore
 
 _gate = {
     OpType.noop: "I",
